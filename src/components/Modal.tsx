@@ -36,8 +36,8 @@ export default function Modal() {
                 {/*body*/}
                 <div className="relative p-6 flex-auto">
                     <form>
-                        <div class="form-group mb-6">
-                        <input type="text" class="form-control block
+                        <div className="form-group mb-6">
+                        <input type="text" className="form-control block
                             w-full
                             px-3
                             py-1.5
@@ -53,8 +53,8 @@ export default function Modal() {
                             focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" id="exampleInput7"
                             placeholder="Name"></input>
                         </div>
-                        <div class="form-group mb-6">
-                        <input type="email" class="form-control block
+                        <div className="form-group mb-6">
+                        <input type="email" className="form-control block
                             w-full
                             px-3
                             py-1.5
@@ -70,9 +70,9 @@ export default function Modal() {
                             focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" id="exampleInput8"
                             placeholder="Email address"></input>
                         </div>
-                        <div class="form-group mb-6">
+                        <div className="form-group mb-6">
                         <textarea
-                        class="
+                        className="
                             form-control
                             block
                             w-full
@@ -90,7 +90,6 @@ export default function Modal() {
                             focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none
                         "
                         id="exampleFormControlTextarea13"
-                        rows="3"
                         placeholder="Message"
                         ></textarea>
                         </div>

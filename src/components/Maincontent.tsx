@@ -1,3 +1,4 @@
+import React from 'react'
 import Cardcontent from './Cardcontent'
 import Footer from './Footer'
 import jamur from '../image/shutterstock.png'
@@ -9,6 +10,7 @@ import distri3 from '../image/image 20.png'
 import fmcg from '../image/image 16.png'
 import retail from '../image/image 29.png'
 import outlets from '../image/Screenshot 2022-12-18 at 23.46 1.png'
+
 
 const Maincontent = ()=> {
     return(
